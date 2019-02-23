@@ -93,4 +93,4 @@ bot.on("message", async message => {
       }
 });
 
-bot.login("NTQ4NjUxODU5MjIxNjc2MDM3.D1JPRQ.mJTMmiHb1NcB4yjWPekuThLKpyo");
+bot.login("NTQ4ODI1MDQ3MzYwNjAyMTQy.D1M7lw.1hATu1WHJKa6WngSWBsAJE0YjNs");
