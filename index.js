@@ -1,9 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const tokenfile = require("./tokenfile.json");
-const botconfig = require("./botconfig.json");
-
 bot.on('ready', async () => {
     console.log(`${bot.user.tag} is online!`);
 });
@@ -96,4 +93,4 @@ bot.on("message", async message => {
       }
 });
 
-bot.login(tokenfile.token);
+bot.login("NTQ4NjUxODU5MjIxNjc2MDM3.D1JPRQ.mJTMmiHb1NcB4yjWPekuThLKpyo");
