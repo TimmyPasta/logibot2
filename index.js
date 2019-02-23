@@ -17,7 +17,7 @@ bot.on("message", async message => {
     let args = messageArray.slice(1);
 
     if(cmd === `${prefix}hello`) {
-        message.channel.send("Hello!");
+        message.channel.send("Hello there you lovely person. Sub to Logi lol!");
     }
 
     if(cmd === `${prefix}avatar`) {
