@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
+const botconfig = require("./botconfig.json");
+
 bot.on('ready', async () => {
     console.log(`${bot.user.tag} is online!`);
 });
